@@ -1,0 +1,48 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DF Tech Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sample Docker Container running nginx Website </h1>
+        <p>This is a simple demo HTML page for the Direct Ferries Tech Task.</p>
+
+        <p>Today's Date and Time is: <span id='date-time'></span><p>
+            <script>
+                 var dateAndTime = new Date();
+                 document.getElementById('date-time').innerHTML=dateAndTime.toLocaleString();
+            </script>
+    </div>
+
+</body>
+</html>
